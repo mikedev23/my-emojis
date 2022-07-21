@@ -1,0 +1,92 @@
+html {
+	height: 100vh;
+	font-family: Baloo;
+}
+
+body {
+	background-image: linear-gradient(#111f2a, rgb(45, 19, 95));
+	background-size: cover;
+	background-position: center;
+	height: 1vh;
+	background-repeat: no-repeat;
+	color: rgb(166, 111, 40);
+	text-align: center;
+	box-sizing: border-box;
+	display: grid;
+	align-items: center;
+	justify-content: center;
+	font-size: large;
+}
+
+main {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-evenly;
+	height: 400px;
+	width: 400px;
+}
+
+span {
+	font-size: 3em;
+	font-weight: 700;
+	text-shadow: 5px 0px 3px black;
+}
+
+#emoji-container {
+	margin: 40px;
+	text-align: center;
+}
+
+#emoji-container span {
+	margin: 10px;
+	font-size: 60px;
+
+}
+
+#push-btn,
+#unshift-btn {
+	background-color: #64ac63;
+}
+
+#shift-btn,
+#pop-btn {
+	background-color: #E23349;
+}
+
+h1 {
+	letter-spacing: 2px;
+	text-align: center;
+	color: coral;
+	font-size: 2em;
+	margin-top: 2em;
+	text-shadow: 5px 0px 3px black;
+}
+
+input {
+	margin: 0 auto;
+	display: block;
+	border: 1px solid black;
+	height: 30px;
+	background: white;
+	border-radius: 6px;
+	text-align: center;
+	margin-top: 2em;
+}
+
+button {
+	font-family: Baloo;
+	background: darkcyan;
+	color: white;
+	border: none;
+	padding: 4px 10px;
+	border-radius: 6px;
+	margin: 0 4px;
+}
+
+.buttons-wrapper {
+	display: flex;
+	justify-content: center;
+	margin: 10px 0 0;
+	text-shadow: 5px 0px 3px black;
+}
