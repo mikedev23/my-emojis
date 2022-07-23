@@ -1,4 +1,4 @@
-const myEmojis = ["👨🏿‍💻", "🍳", "🏀", "🏃🏿‍♂️", "☕"]
+const myEmojis = ["👨🏿‍💻", "🍳", "🏀","🚴🏾‍♂️", "☕"]
 const emojiContainer = document.querySelector("#emojiContainer")
 const emojiInput = document.querySelector("#emoji-input")
 const pushBtn = document.querySelector("#push-btn")
